@@ -25,7 +25,7 @@ myArr2.shift()//pop the value from index 0
 //check the value is present in array
 // console.log(myArr2.includes(9));
 
-const newArr=myArr2.join()
+const newArr=myArr2.join()//join operation changes array to string type
 // console.log(myArr2);
 // console.log(newArr);// it returns value in string format
 
