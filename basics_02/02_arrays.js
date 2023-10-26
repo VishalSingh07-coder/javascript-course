@@ -9,7 +9,7 @@ let dc_heroes=["superman","flash","batman"]
 let heroes=marvel_heroes.concat(dc_heroes)
 // console.log(heroes);
 //method 2
-let new_heroes=[...marvel_heroes,...dc_heroes];
+let new_heroes=[...marvel_heroes,...dc_heroes];//spread method
 
 // console.log(new_heroes);
 
