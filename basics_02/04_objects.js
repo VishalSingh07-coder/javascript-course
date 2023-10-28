@@ -3,6 +3,7 @@
 const user={}
 user.id="123"
 user.name="Vishal Singh"
+user.isLoggedIn=true;
 // console.log(user);
 
 
@@ -54,7 +55,7 @@ const new_user=[{
         email:"Anku@gmail.com"
     }]
 // console.log(new_user[1].email);
-console.log(Object.keys(new_user));
-console.log(Object.values(new_user));
-console.log(Object.entries(new_user));
-
+// console.log(Object.keys(new_user));
+// console.log(Object.values(new_user));
+// console.log(Object.entries(new_user));
+console.log(user.hasOwnProperty("isLoggedIn"));
