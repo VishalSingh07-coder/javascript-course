@@ -58,4 +58,28 @@ const new_user=[{
 // console.log(Object.keys(new_user));
 // console.log(Object.values(new_user));
 // console.log(Object.entries(new_user));
-console.log(user.hasOwnProperty("isLoggedIn"));
+// console.log(user.hasOwnProperty("isLoggedIn"));
+
+//destructuring of objects
+//normal way
+const course={
+    coursename:"Js in hindi",
+    courseinstructor:"Chai & Code",
+    source:"Youtube"
+}
+// console.log(course.coursename); //default way but whrn we have to call other keys then it will take morem time
+
+const{coursename:cname,courseinstructor:instructor,source}=course //we call all keys at one time
+// console.log(cname, instructor, source);
+
+//json api 
+// {
+//     name:"Vishal",
+//     id:"123",
+
+//}
+[
+    {},
+    {},
+    {}
+]
