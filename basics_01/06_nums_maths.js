@@ -23,7 +23,7 @@ const hundreds=10000000
 // console.log(Math.abs(-4));// return value in positive
 // console.log(Math.abs(4));
 // console.log(Math.round(100.5787));//precise value
-// console.log(Math.ceil(4.4));// it is greater than 4 so it always retrun 5
+console.log(Math.ceil(4.4));// it is greater than 4 so it always retrun 5
 // console.log(Math.floor(4.6));//returns 4
 // console.log(Math.min(4,6,8,10));
 // console.log(Math.max(2,4,6,8,10));
