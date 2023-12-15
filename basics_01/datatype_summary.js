@@ -11,7 +11,7 @@ let username;
 let Id=Symbol('123')
 let anotherId=Symbol('123')
 
-// console.log(Id===anotherId);
+console.log(Id===anotherId);
 let bigNumber=3313232324232n
 
 //reference (non-primitive)

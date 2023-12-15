@@ -7,7 +7,7 @@ let dc_heroes=["superman","flash","batman"]
 //method 1(using concatenate operation)
 
 let heroes=marvel_heroes.concat(dc_heroes)
-// console.log(heroes);
+// console.log(heroes)
 //method 2
 let new_heroes=[...marvel_heroes,...dc_heroes];//spread method
 
@@ -21,7 +21,7 @@ let num=[1,2,3,[4,5],6,7,[9,10]]
 
 // console.log(Array.isArray("vishal"));
 
-    // console.log(Array.from("vishal"));
+    console.log(Array.from("vishal"));
     let id1=1000
     let id2=1001
     let id3=1002
